@@ -73,7 +73,8 @@ a:hover{
   width: 15%;
 }
 .middle-container{
-  margin: 50px auto 100px auto;
+  margin: 4% auto 100px auto;
+  padding-top: 5%;
   background-color: white;
 }
 .intro{
