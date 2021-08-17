@@ -1,0 +1,144 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+ hr{
+   border-style: solid none none;
+   border-width: 7px;
+   width: 5%;
+   border-color: #FFD369;
+   margin: 100px auto 100px auto
+ }
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #222831;
+  line-height: 1;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #393E46;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #393E46;
+  font-weight: bold;
+}
+p{
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+  color: #222831;
+}
+a:hover{
+  color:white;
+}
+.sticky-top{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: -5;
+
+}
+.banner{
+  width:100%;
+
+}
+.top_container{
+  background-color: #EEEEEE;
+  position: relative;
+  padding-top: 100px;
+}
+.top_cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom_cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+.profile_img{
+  width: 15%;
+}
+.middle-container{
+  margin: 50px auto 100px auto;
+  background-color: white;
+}
+.intro{
+  width: 30%;
+  margin:auto;
+}
+.bottom-container{
+  background-color: #EEEEEE;
+  padding: 50px 0 50px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-row_img1{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row_img2{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.button_contact {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 1%;
+   background-color: #222831;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button_contact:hover {
+   background: #393E46;
+   border: solid #337FED 0;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+
+}
+
+.credits{
+  margin: 20px auto 0;
+  font-size: xx-small;
+
+}
